@@ -24,7 +24,7 @@ https://www.raspberrypirulo.net/entry/gpio
 https://www.raspberrypirulo.net/entry/python-callback
 
 
-* Wait for edge
+* Wait for edge　　
 https://www.raspberrypirulo.net/entry/python-waitforedge
 
 
