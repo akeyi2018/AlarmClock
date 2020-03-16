@@ -10,3 +10,22 @@
 * 音楽をならす
 * ストップボタン
 * 自動セット機能
+
+
+<h5>参考文献
+
+* Lチカ
+
+https://www.raspberrypirulo.net/entry/gpio
+
+
+* Callback
+
+https://www.raspberrypirulo.net/entry/python-callback
+
+
+* Wait for edge
+https://www.raspberrypirulo.net/entry/python-waitforedge
+
+
+※Raspberry PiのGPIOは、ノイズが大きいため使い方によっては稀に予期せぬ動作をしますので、ご注意ください。
