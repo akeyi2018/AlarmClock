@@ -15,12 +15,7 @@ class SetAlarmTimer:
             #Plus One day
             tmp = dt_now + datetime.timedelta(days=1)
             
-        self.AlarmTime = datetime.datetime(tmp.year,
-                                           tmp.month,
-                                           tmp.day,
-                                           tm[0],
-                                           tm[1],
-                                           0,0)
+        self.AlarmTime = datetime.datetime(tmp.year, tmp.month, tmp.day, tm[0], tm[1], 0, 0)
         print(self.AlarmTime)
 
     def RunAlarmTimer(self):
