@@ -1,4 +1,4 @@
-class scadule:
+class schedule:
 
     def __init__(self, requst):
         
