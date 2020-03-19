@@ -1,12 +1,12 @@
 import datetime
 import time
 
-class SetAlarmTimer:
+class AlarmTimer:
     
     def __init__(self, tm):
 
         #Get Now
-        dt_now = datetime.datetime.now()
+        self.dt_now = datetime.datetime.now()
         
         if dt_now.hour > 0 and dt_now.hour <= tm[0]:
             #Set Time
@@ -34,6 +34,6 @@ if __name__ == "__main__":
     tm = [7,30]
 
     #Set Alarm
-    wt = SetAlarmTimer(tm)
+    wt = AlarmTimer(tm)
     #Run Alarm
     wt.RunAlarmTimer()
