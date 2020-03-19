@@ -17,11 +17,11 @@ Latest Update:2020/03/19
 下記機能のクラス名とメソッド名のみ実装
 | No | Class Name | 機能 | 使用ライブラリ | 備考 |  
 |---:|:---|:---|:---|:---|
-| 1 | AlarmTimer.py | アラーム生成、トリガー | datetime, time |  |
+| 1 | AlarmTimer.py | アラーム生成、トリガー | datetime, time | 動作OK |
 | 2 | AlarmPlayer.py | アラームを鳴らす | vlc |  |
 | 3 | SleepChecker.py | 睡眠チェック |  |  |
 | 4 | SleepRecoder.py | 睡眠記録 |  |  |
-| 5 | SleepSchedule.py | 睡眠スケジュール | jpholiday |  |
+| 5 | SleepSchedule.py | 睡眠スケジュール | jpholiday | 動作OK |
 | 6 | Sleeperson.py | 使用者の情報 |  |  |
 
 
