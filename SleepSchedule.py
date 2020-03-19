@@ -1,14 +1,20 @@
+import jpholiday
+
 class schedule:
 
-    def __init__(self, requst):
+    def __init__(self, reqDay):
         
-        self.weekFlag = [1,1,1,1,1,0,0]
-        self.holiday = []
-        self.requst = requst
+        self.dt = reqDay
+        self.isHoliday = jpholiday.is_holiday(self.dt)
+        self.holidayName = jpholiday.is_holiday_name(self.dt)
         
-    def getScadule(self):
-
-        #compare weekflag
-        #compare holiday
-        pass
-        return True
+    def IsOffWork(self):
+        if self.isHoliday:
+            return True
+        elif self.dt.weekday() >= 5:
+            return True
+        else:
+            return False      
+        
+if __name__ == "__main__": 
+    pass
