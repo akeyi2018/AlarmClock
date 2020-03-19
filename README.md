@@ -21,7 +21,7 @@ Latest Update:2020/03/19
 | 2 | AlarmPlayer.py | アラームを鳴らす | vlc |  |
 | 3 | SleepChecker.py | 睡眠チェック |  |  |
 | 4 | SleepRecoder.py | 睡眠記録 |  |  |
-| 5 | SleepSchadule.py | 睡眠スケジュール |  |  |
+| 5 | SleepSchedule.py | 睡眠スケジュール |  |  |
 | 6 | Sleeperson.py | 使用者の情報 |  |  |
 
 
