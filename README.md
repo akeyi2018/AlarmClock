@@ -18,6 +18,11 @@ Latest Update:2020/03/19
 | No | Class Name | 機能 | 使用ライブラリ | 備考 |  
 |---:|:---|:---|:---|:---|
 | 1 | AlarmTimer.py | アラーム生成、トリガー | datetime, time |  |
+| 2 | AlarmPlayer.py | アラームを鳴らす | vlc |  |
+| 3 | SleepChecker.py | 睡眠チェック |  |  |
+| 4 | SleepRecoder.py | 睡眠記録 |  |  |
+| 5 | SleepSchadule.py | 睡眠スケジュール |  |  |
+| 6 | Sleeperson.py | 使用者の情報 |  |  |
 
 
 * 音楽をならす
