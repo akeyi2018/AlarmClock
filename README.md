@@ -4,6 +4,12 @@
 <h5>指定した時間でセットできる。  
 アラーム文字列をDisplayに表示するのみ  
 
+Mp3/Mp4再生の設定は[ここ](https://akeyi2020.blogspot.com/2020/07/raspberry-pi.html)参照
+AlarmPlayer.pyダウンロードし、以下のコマンドを入力、playlist.txtの曲がシャッフルに再生が可能
+
+```YAML
+python AlarmPlayer.py playlist.txt
+```
 
 * * * 
 <h5>今後実装予定の機能
@@ -18,7 +24,7 @@ Latest Update:2020/03/19
 | No | Class Name | 機能 | 使用ライブラリ | 備考 |  
 |---:|:---|:---|:---|:---|
 | 1 | AlarmTimer.py | アラーム生成、トリガー | datetime, time | 動作OK |
-| 2 | AlarmPlayer.py | アラームを鳴らす | vlc |  |
+| 2 | AlarmPlayer.py | アラームを鳴らす | mplayer | ローカル再生可能 |
 | 3 | SleepChecker.py | 睡眠チェック |  |  |
 | 4 | SleepRecoder.py | 睡眠記録 |  |  |
 | 5 | SleepSchedule.py | 睡眠スケジュール | jpholiday | 動作OK |
