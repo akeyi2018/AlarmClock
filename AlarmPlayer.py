@@ -1,24 +1,24 @@
-import vlc
+import subprocess
+import sys
+from multiprocessing import Process
+from time import sleep
 
-class MusicPlayer:
+class mpxplayer:
 
-    def __init__(self, musicPath):
+    def __init__(self):
 
-        self.musicPathh = musicPath
-        #prepare music
-	      self.player = vlc.MediaListPlayer()
-	      self.mediaList = vlc.MediaList([self.musicPath])
-        self.player.set_media_list(self.mediaList)
-        self.player.set_playback_mode(vlc.PlaybackMode.loop)
+        self.musicfile = sys.argv[1]
+        self.cmd = "mplayer -ao alsa:device=hw=1.0 -novideo -shuffle -playlist " + self.musicfile
 
-    def Play(self):
-        pass
+    def run(self):
+        proc =subprocess.Popen(self.cmd.split(), shell=False)
 
-    def Stop(self):
-        pass
 
-    def GetMusic(self):
-        pass
+def wrapper(obj):
+    p = mpxplayer()
+    p.run()
 
-    def SetMusic(self):
-        pass
+if __name__ == "__main__":
+
+    thread = Process(target=wrapper, args=("",))
+    thread.start()
