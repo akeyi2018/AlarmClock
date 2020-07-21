@@ -2,10 +2,10 @@
 <h5>目覚まし時計
 
 <h5>指定した時間でセットできる。  
-アラーム文字列をDisplayに表示するのみ  
+アラーム文字列をDisplayに表示するのみ    
 
-Mp3/Mp4再生の設定は[ここ](https://akeyi2020.blogspot.com/2020/07/raspberry-pi.html)参照
-AlarmPlayer.pyダウンロードし、以下のコマンドを入力、playlist.txtの曲がシャッフルに再生が可能
+Mp3/Mp4再生の設定は[ここ](https://akeyi2020.blogspot.com/2020/07/raspberry-pi.html)参照  
+AlarmPlayer.pyダウンロードし、以下のコマンドを入力、playlist.txtの曲がシャッフルに再生が可能  
 
 ```YAML
 python AlarmPlayer.py playlist.txt
