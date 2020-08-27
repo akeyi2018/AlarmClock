@@ -1,1 +1,52 @@
+今週目標：
 
+18. 降圧モジュールの測定
+2 3D PrinterでBoxを作成して、降圧モジュールを囲む
+
+製作開始：
+
+着手： 
+リミットスイッチの開封＋Raspi＋スピーカー＋生活スタイル管理→アプリ→アドバイス
+
+準備：
+1. スピーカー購入完了300円
+2. リミットスイッチ
+3. ラズパイ
+
+１．構成図の製図
+２．配線図
+３．ソフトウェア開発
+
+dash解説
+https://qiita.com/chromia/items/4b91d8b6ca520782672c
+adminLTE
+https://adminlte.io/themes/AdminLTE/pages/charts/chartjs.html
+
+未完了：
+
+3 LEDソケット作成
+
+5　Raspi→ Node-redでLチカ
+
+6　Raspi GPIOZero（リモートGPIO）
+
+7　Terminal SSH / SCP
+
+9 目覚まし時計作成（人感センサー）
+
+11 、チャンネルアートの設定
+https://k-steven.com/archives/1020
+
+12. 距離センサーとOLED表示の連動
+
+14. カメラ撮影環境DIY構築（突き出し棒の作成）
+
+完了：
+1.　画面トレース FimoraSCN
+2. 昇圧モジュールをブレッドボードで使えるようにする
+13. Qiitaをはじめる
+4. テスター改良
+5.トグルスイッチ開封
+10 撮影装置の改良(アルミチャンネル）
+4 昇圧モジュールからサーボーモータを動かす
+トグルスイッチ付き、角型電池BOX作成
