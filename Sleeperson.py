@@ -9,3 +9,9 @@ class humanInfo:
     def getSleepingrism(self):
         pass
         return True
+    
+    
+    
+    
+if __name__ == "__main__":
+    print("hello world")
