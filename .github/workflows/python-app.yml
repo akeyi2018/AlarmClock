@@ -35,4 +35,4 @@ jobs:
     - name: Test with sunrise
       run: |
         echo 'hello world' | pwd
-        echo | ls
+        python3 Sleeperson.py
