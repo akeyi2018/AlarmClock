@@ -17,7 +17,7 @@ python AlarmPlayer.py playlist.txt
 
 * * * 
 
-Latest Update:2020/03/19
+Latest Update:2026/08/05
 
 
 下記機能のクラス名とメソッド名のみ実装
@@ -25,10 +25,14 @@ Latest Update:2020/03/19
 |---:|:---|:---|:---|:---|
 | 1 | AlarmTimer.py | アラーム生成、トリガー | datetime, time | 動作OK |
 | 2 | AlarmPlayer.py | アラームを鳴らす | mplayer | ローカル再生可能 |
-| 3 | SleepChecker.py | 睡眠チェック |  |  |
-| 4 | SleepRecoder.py | 睡眠記録 |  |  |
+| 3 | SleepCheckerForGPRIOZERO.py | GPIO押しボタンで入眠/起床 | gpiozero | 物理ボタン版 |
+| 4 | SleepCheckerForWeb.py | Webブラウザの入眠/起床ボタン | Flask | 物理ボタンなし環境向け |
+| 5 | SleepRecoder.py | 睡眠記録 |  |  |
 | 5 | SleepSchedule.py | 睡眠スケジュール | jpholiday | 動作OK |
 | 6 | Sleeperson.py | 使用者の情報 |  |  |
+
+* 本日の修正: `SleepCheckerForWeb.py` を追加し、Webブラウザから「入眠」「起床」ボタンで `sleep_log.csv` に記録できるようにしました。
+* 物理ボタンが使える場合は、従来の `SleepCheckerForGPRIOZERO.py` が引き続き利用可能です。
 
 
 * 音楽をならす
